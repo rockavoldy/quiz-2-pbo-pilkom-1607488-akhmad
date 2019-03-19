@@ -1,0 +1,14 @@
+Tulis jawaban no 6 disini:
+NIM: 1607488
+NAMA: Akhmad Maulana Akbar
+
+kelemahannya,
+- Class Adegan bisa dipakai untuk meja juga, bisa membingungkan orang lain yang melihat source code,
+lebih baik class Adegan dibuat untuk kerangka dan dibuatkan class AdeganKeMeja sehingga lebih terstruktur.
+
+- tidak menggunakan arrayList, sehingga dibatas hanya sampai 10
+
+- perbandingan barangPilih.id lebih baik menggunakan equals daripada ==, karena String, bisa terjadi error
+
+- kondisi di adeganPintu belum hanya boleh dibuka dengan kunci, ketika memakan makanan di adegan pintu, maka pintu juga terbuka
+seharusnya tambah kondisi untuk membuka pintu hanya boleh dibuka dengan kunci
